@@ -15,7 +15,6 @@ from os import system, environ, path, getuid
 from distutils.dir_util import copy_tree
 from subprocess import check_output, CalledProcessError
 from sys import stdout, argv, exit
-from Server import *
 from Checks import *
 RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW, YELLOW2, GREEN2= '\033[91m', '\033[46m', '\033[36m', '\033[1;32m', '\033[0m' , '\033[1;33m' , '\033[1;93m', '\033[1;92m'
 def menu_q():
